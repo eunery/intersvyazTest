@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB49F95211A6872ADF5AD96 /* Pods_intersvyazTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E750D1E306D943140F06B1A /* Pods_intersvyazTest.framework */; };
 		8559077F2C75E15200449122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559077E2C75E15200449122 /* AppDelegate.swift */; };
-		855907812C75E15200449122 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907802C75E15200449122 /* SceneDelegate.swift */; };
-		855907832C75E15200449122 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907822C75E15200449122 /* ViewController.swift */; };
-		855907862C75E15200449122 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 855907852C75E15200449122 /* Base */; };
 		855907882C75E15300449122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855907872C75E15300449122 /* Assets.xcassets */; };
 		8559078B2C75E15300449122 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8559078A2C75E15300449122 /* Base */; };
+		855907942C75E4A200449122 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907932C75E4A200449122 /* Resolver.swift */; };
+		855907972C75E55000449122 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907962C75E55000449122 /* Coordinator.swift */; };
+		855907992C75E56C00449122 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907982C75E56C00449122 /* AppCoordinator.swift */; };
+		8559079B2C75E66F00449122 /* PicturesFeedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559079A2C75E66F00449122 /* PicturesFeedCoordinator.swift */; };
+		8559079D2C75E67E00449122 /* PicturesFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559079C2C75E67E00449122 /* PicturesFeedViewController.swift */; };
+		8559079F2C75E6A300449122 /* DetailPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8559079E2C75E6A300449122 /* DetailPictureViewController.swift */; };
+		855907A52C75E7AF00449122 /* PicturesFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907A42C75E7AF00449122 /* PicturesFeedViewModel.swift */; };
+		855907A72C75E7B400449122 /* PicturesFeedViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907A62C75E7B400449122 /* PicturesFeedViewModelProtocol.swift */; };
+		855907AE2C75E81D00449122 /* NetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907AD2C75E81D00449122 /* NetworkWorker.swift */; };
+		855907B02C75E85500449122 /* ApiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907AF2C75E85500449122 /* ApiSettings.swift */; };
+		855907B32C75E8AD00449122 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907B22C75E8AD00449122 /* ApiService.swift */; };
+		855907B52C75E8E200449122 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907B42C75E8E200449122 /* ApiRepository.swift */; };
+		855907B82C75EE2E00449122 /* PicturesFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907B72C75EE2E00449122 /* PicturesFeedCollectionViewCell.swift */; };
+		855907BB2C7D125D00449122 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855907BA2C7D125D00449122 /* ImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19E91AF64122851E958B20D0 /* Pods-intersvyazTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intersvyazTest.release.xcconfig"; path = "Target Support Files/Pods-intersvyazTest/Pods-intersvyazTest.release.xcconfig"; sourceTree = "<group>"; };
+		32F6A8203D5A871224EE9FD8 /* Pods-intersvyazTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-intersvyazTest.debug.xcconfig"; path = "Target Support Files/Pods-intersvyazTest/Pods-intersvyazTest.debug.xcconfig"; sourceTree = "<group>"; };
+		7E750D1E306D943140F06B1A /* Pods_intersvyazTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_intersvyazTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8559077B2C75E15200449122 /* intersvyazTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intersvyazTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8559077E2C75E15200449122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		855907802C75E15200449122 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		855907822C75E15200449122 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		855907852C75E15200449122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		855907872C75E15300449122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8559078A2C75E15300449122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8559078C2C75E15300449122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855907932C75E4A200449122 /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		855907962C75E55000449122 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		855907982C75E56C00449122 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		8559079A2C75E66F00449122 /* PicturesFeedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedCoordinator.swift; sourceTree = "<group>"; };
+		8559079C2C75E67E00449122 /* PicturesFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedViewController.swift; sourceTree = "<group>"; };
+		8559079E2C75E6A300449122 /* DetailPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPictureViewController.swift; sourceTree = "<group>"; };
+		855907A42C75E7AF00449122 /* PicturesFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedViewModel.swift; sourceTree = "<group>"; };
+		855907A62C75E7B400449122 /* PicturesFeedViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedViewModelProtocol.swift; sourceTree = "<group>"; };
+		855907AD2C75E81D00449122 /* NetworkWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWorker.swift; sourceTree = "<group>"; };
+		855907AF2C75E85500449122 /* ApiSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSettings.swift; sourceTree = "<group>"; };
+		855907B22C75E8AD00449122 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		855907B42C75E8E200449122 /* ApiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
+		855907B72C75EE2E00449122 /* PicturesFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		855907BA2C7D125D00449122 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB49F95211A6872ADF5AD96 /* Pods_intersvyazTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0796F8CF8D91C812DD658A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32F6A8203D5A871224EE9FD8 /* Pods-intersvyazTest.debug.xcconfig */,
+				19E91AF64122851E958B20D0 /* Pods-intersvyazTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		855907722C75E15200449122 = {
 			isa = PBXGroup;
 			children = (
 				8559077D2C75E15200449122 /* intersvyazTest */,
 				8559077C2C75E15200449122 /* Products */,
+				0796F8CF8D91C812DD658A95 /* Pods */,
+				CDD86EFFB7B38287CDD6A3BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,106 @@
 		8559077D2C75E15200449122 /* intersvyazTest */ = {
 			isa = PBXGroup;
 			children = (
+				855907922C75E49A00449122 /* DI */,
+				855907B92C75F43C00449122 /* Models */,
+				855907952C75E54600449122 /* Coordinator */,
+				855907AC2C75E7F100449122 /* Network */,
+				855907A02C75E6AF00449122 /* Scenarios */,
 				8559077E2C75E15200449122 /* AppDelegate.swift */,
-				855907802C75E15200449122 /* SceneDelegate.swift */,
-				855907822C75E15200449122 /* ViewController.swift */,
-				855907842C75E15200449122 /* Main.storyboard */,
 				855907872C75E15300449122 /* Assets.xcassets */,
 				855907892C75E15300449122 /* LaunchScreen.storyboard */,
 				8559078C2C75E15300449122 /* Info.plist */,
 			);
 			path = intersvyazTest;
+			sourceTree = "<group>";
+		};
+		855907922C75E49A00449122 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				855907932C75E4A200449122 /* Resolver.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		855907952C75E54600449122 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				855907962C75E55000449122 /* Coordinator.swift */,
+				855907982C75E56C00449122 /* AppCoordinator.swift */,
+				8559079A2C75E66F00449122 /* PicturesFeedCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		855907A02C75E6AF00449122 /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				855907A12C75E6D300449122 /* PicturesFeed */,
+			);
+			path = Scenarios;
+			sourceTree = "<group>";
+		};
+		855907A12C75E6D300449122 /* PicturesFeed */ = {
+			isa = PBXGroup;
+			children = (
+				855907A22C75E6DB00449122 /* PicturesFeed */,
+				855907A32C75E6FB00449122 /* DetailPictures */,
+			);
+			path = PicturesFeed;
+			sourceTree = "<group>";
+		};
+		855907A22C75E6DB00449122 /* PicturesFeed */ = {
+			isa = PBXGroup;
+			children = (
+				855907B62C75EE1B00449122 /* Cells */,
+				855907A62C75E7B400449122 /* PicturesFeedViewModelProtocol.swift */,
+				855907A42C75E7AF00449122 /* PicturesFeedViewModel.swift */,
+				8559079C2C75E67E00449122 /* PicturesFeedViewController.swift */,
+			);
+			path = PicturesFeed;
+			sourceTree = "<group>";
+		};
+		855907A32C75E6FB00449122 /* DetailPictures */ = {
+			isa = PBXGroup;
+			children = (
+				8559079E2C75E6A300449122 /* DetailPictureViewController.swift */,
+			);
+			path = DetailPictures;
+			sourceTree = "<group>";
+		};
+		855907AC2C75E7F100449122 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				855907AD2C75E81D00449122 /* NetworkWorker.swift */,
+				855907AF2C75E85500449122 /* ApiSettings.swift */,
+				855907B22C75E8AD00449122 /* ApiService.swift */,
+				855907B42C75E8E200449122 /* ApiRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		855907B62C75EE1B00449122 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				855907B72C75EE2E00449122 /* PicturesFeedCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		855907B92C75F43C00449122 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				855907BA2C7D125D00449122 /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDD86EFFB7B38287CDD6A3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E750D1E306D943140F06B1A /* Pods_intersvyazTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8559078F2C75E15300449122 /* Build configuration list for PBXNativeTarget "intersvyazTest" */;
 			buildPhases = (
+				A2D65BF5AF7C43D313AB06F9 /* [CP] Check Pods Manifest.lock */,
 				855907772C75E15200449122 /* Sources */,
 				855907782C75E15200449122 /* Frameworks */,
 				855907792C75E15200449122 /* Resources */,
+				093596C4E3E1A762F0C0E04F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +258,79 @@
 			files = (
 				855907882C75E15300449122 /* Assets.xcassets in Resources */,
 				8559078B2C75E15300449122 /* Base in Resources */,
-				855907862C75E15200449122 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093596C4E3E1A762F0C0E04F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-intersvyazTest/Pods-intersvyazTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-intersvyazTest/Pods-intersvyazTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-intersvyazTest/Pods-intersvyazTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D65BF5AF7C43D313AB06F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-intersvyazTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		855907772C75E15200449122 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				855907832C75E15200449122 /* ViewController.swift in Sources */,
+				855907B82C75EE2E00449122 /* PicturesFeedCollectionViewCell.swift in Sources */,
+				855907972C75E55000449122 /* Coordinator.swift in Sources */,
+				8559079F2C75E6A300449122 /* DetailPictureViewController.swift in Sources */,
+				855907B02C75E85500449122 /* ApiSettings.swift in Sources */,
+				855907AE2C75E81D00449122 /* NetworkWorker.swift in Sources */,
+				8559079B2C75E66F00449122 /* PicturesFeedCoordinator.swift in Sources */,
+				855907942C75E4A200449122 /* Resolver.swift in Sources */,
+				8559079D2C75E67E00449122 /* PicturesFeedViewController.swift in Sources */,
+				855907A52C75E7AF00449122 /* PicturesFeedViewModel.swift in Sources */,
+				855907BB2C7D125D00449122 /* ImageModel.swift in Sources */,
+				855907992C75E56C00449122 /* AppCoordinator.swift in Sources */,
+				855907A72C75E7B400449122 /* PicturesFeedViewModelProtocol.swift in Sources */,
+				855907B52C75E8E200449122 /* ApiRepository.swift in Sources */,
+				855907B32C75E8AD00449122 /* ApiService.swift in Sources */,
 				8559077F2C75E15200449122 /* AppDelegate.swift in Sources */,
-				855907812C75E15200449122 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		855907842C75E15200449122 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				855907852C75E15200449122 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		855907892C75E15300449122 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,19 +463,22 @@
 		};
 		855907902C75E15300449122 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F6A8203D5A871224EE9FD8 /* Pods-intersvyazTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99J8T8PS7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = intersvyazTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +494,22 @@
 		};
 		855907912C75E15300449122 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E91AF64122851E958B20D0 /* Pods-intersvyazTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99J8T8PS7H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = intersvyazTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

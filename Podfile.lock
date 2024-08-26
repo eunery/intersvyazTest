@@ -1,0 +1,30 @@
+PODS:
+  - CocoaDebug (1.7.7)
+  - Resolver (1.5.1)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - CocoaDebug (~> 1.7.2)
+  - Resolver (~> 1.5.0)
+  - SDWebImage (~> 5.17.0)
+  - SnapKit (~> 5.6.0)
+
+SPEC REPOS:
+  trunk:
+    - CocoaDebug
+    - Resolver
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  CocoaDebug: b38d31464b91a9775928f8667d114db07b136565
+  Resolver: 0e2ce51257e9366c54afe1b9e9be25059e9b9300
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 16e48cd527d54d2ea3209d2d59616e44efc4a7d5
+
+COCOAPODS: 1.15.2
